@@ -13,7 +13,7 @@ const BusinessPromo = () => {
                 <h1 className='text-gradient2 font-poppins text-[22px] mt-5 w-[400px] font-bold ml-5 tracking-widest'>Two year warranty</h1>
                 <p className='text-gradient2 mx-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium<br/> totam rem aperiam, eaque ipsa quae ab illo.</p>
                 <div className='flex items-end justify-end relative -top-[70px] mr-5'>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-teal-500"> <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /> </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="sm:w-10 sm:h-10 w-6 h-6 text-teal-500"> <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /> </svg>
                 </div>
             </div>
             <div className="w-[450px] h-[140px] bg-gray-gradient rounded-lg m-2 hover:bg-dimWhite duration-500">
@@ -43,7 +43,7 @@ const BusinessPromo = () => {
             <h1 className='font-poppins font-bold text-[42px] sm:leading-15 leading-11'>You do the business</h1>
             <h1 className='font-poppins font-bold text-[42px] sm:leading-15 leading-11'>we'll handle</h1>
             <h1 className='font-poppins font-bold text-[42px] sm:leading-15 leading-11'>the rest</h1>
-            <p className='text-dimWhite font-poppins text-[17px] mt-5 w-[400px] sm:ml-0 ml-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p className='text-dimWhite font-poppins text-[17px] mt-5 sm:w-[400px] w-[350px] sm:ml-0 ml-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           <div className='w-[150px] h-[50px] bg-black-gradient-2 flex items-center justify-center rounded-3xl sm:mt-10 sm:m-0 mt-5 m-auto hover:opacity-50 cursor-pointer'><p className='text-purple-500 text-[20px] font-bold tracing-wider'>Get Started</p></div>
         </div>
          

@@ -4,7 +4,7 @@ import {comp8,comp9,comp10,comp11,comp12,comp13,comp14,comp15,comp16,comp17,comp
 
 const Marquee = () => 
   (
-    <div className='sm:flex-col w-full'>
+    <div className='sm:flex-col w-full sm:mt-0 mt-[10vh]'>
     <article class="flex whitespace-no-wrap overflow-x-hidden">
         <div class="relative">
             <ul className="flex animate-marquee text-white">

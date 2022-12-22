@@ -41,7 +41,7 @@ return(
                 <div className='flex justify-end  '>
                   <p className='bg-gradient-to-r from-green-600 via-teal-400 to-green-600 absolute text-white mr-1 px-1 mt-2 rounded-md font-poppins'>{item.promo}</p>
                 </div>
-                  <img src={item.img}  className='sm:w-[450px] sm:h-[230px] h-[20vh] w-[40vw]  rounded-b-md '/> 
+                  <img src={item.img}  className='sm:w-[450px] sm:h-[230px] h-[15vh] w-[200px]  rounded-b-md '/> 
             </div>
           </div>
         ))}
@@ -54,7 +54,7 @@ return(
                 <div className='flex justify-end '>
                   <p className='bg-gradient-to-r from-teal-600 via-teal-400 to-teal-900 absolute text-white mr-1 px-1 mt-2 rounded-md font-poppins'>{item2.promo}</p>
                 </div>
-                  <img src={item2.img}  className='sm:w-[450px] sm:h-[230px] h-[20vh] w-[40vw] rounded-b-md'/> 
+                  <img src={item2.img}  className='sm:w-[450px] sm:h-[230px] h-[15vh] w-[200px] rounded-b-md'/> 
             </div>
           </div>
         ))}
@@ -67,7 +67,7 @@ return(
                 <div className='flex justify-end '>
                   <p className='bg-gradient-to-r from-teal-600 via-teal-400 to-teal-900 absolute text-white mr-1 px-1 mt-2 rounded-md font-poppins'>{item3.promo}</p>
                 </div>
-                  <img src={item3.img}  className='sm:w-[450px] sm:h-[230px] h-[20vh] w-[40vw] rounded-b-md'/> 
+                  <img src={item3.img}  className='sm:w-[450px] sm:h-[230px] h-[15vh] w-[200px] rounded-b-md'/> 
             </div>
           </div>
         ))}
