@@ -13,7 +13,7 @@ const Chart = () => {
       </div>
 
         <video src={stonks}
-              autoPlay loop muted
+              autoPlay loop muted playsInline
               className="relative 
               sm:w-[900px] sm:h-[600px] min-w-[100px] pt-14 sm:top-10">
           </video>
