@@ -1,18 +1,23 @@
-import React from 'react'
+import React, {useRef, useEffect} from "react"
 import {video} from '../assets'
 
 
 const VideoPromo = () => {
+  const videoRefTwo = useRef(undefined);
+  useEffect(() => {
+      videoRefTwo.current.defaultMuted = true;
+  })
 
   return (
     <div className='mx-20 mt-40 pb-20 relative flex justify-center items-center sm:flex-row flex-col'>
      <div className='absolute z-[0] w-[80%] h-[80%] right-[10%] rounded-full blue__gradient'/>
  
 
-     <video src={video}
+     <video   ref={videoRefTwo}
               autoPlay loop muted playsInline
               className=" 
               sm:w-[550px] w-[350px] sm:h-[550px] min-w-[100px] pt-14 sm:top-10 z-[1]">
+                <source src={video} type="video/mp4"/>
           </video>
          
        <div className='z-[1] ml-5 from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent mb-10'>

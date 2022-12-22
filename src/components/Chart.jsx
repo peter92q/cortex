@@ -1,7 +1,13 @@
-import React from 'react'
+import React, {useRef, useEffect} from "react"
 import {stonks} from '../assets'
 
+
 const Chart = () => {
+  
+    const videoRef = useRef(undefined);
+    useEffect(() => {
+        videoRef.current.defaultMuted = true;
+    })
   return (
   <div  id='charts' className='w-full mb-20 flex sm:flex-row flex-col justify-center'>
     <div className='flex sm:flex-row flex-col items-end ml-10'>
@@ -12,10 +18,12 @@ const Chart = () => {
         <p className='text-[20px] text-dimWhite mt-5 sm:w-[480px]'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
-        <video src={stonks}
+        <video
+              ref={videoRef}
               autoPlay loop muted playsInline
               className="relative 
               sm:w-[900px] sm:h-[600px] min-w-[100px] pt-14 sm:top-10">
+                <source src={stonks} type="video/mp4"/>
           </video>
 
     </div>
