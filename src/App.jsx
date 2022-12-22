@@ -62,15 +62,22 @@ return(
        <div className='reveal fade-bottom'>
         <Clients/>
        </div>
-      <ESG/>
+
+      <div className='reveal fade-bottom'>
+        <ESG/>
+      </div>
+
        <div>
-       <Marquee/>
-       </div>
-       <div className='xl:max-w-[1280px] w-full'>
-       <DownloadApp/>
+        <Marquee/>
        </div>
 
-      <Footer/>
+       <div className='xl:max-w-[1280px] w-full reveal fade-bottom'>
+        <DownloadApp/>
+       </div>
+
+      <div className='reveal fade-bottom'>
+        <Footer/>
+       </div>
     
     </div>
   )
