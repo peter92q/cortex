@@ -1,0 +1,60 @@
+import reacticon from './reacticon.png'
+import burger from './burger.svg'
+import ex from './ex.svg'
+import nobg from './nobg.png'
+import wave from './wave.png'
+import video from './video.mp4'
+import comp8 from './comp8.png'
+import comp9 from './comp9.png'
+import comp10 from './comp10.png'
+import comp11 from './comp11.png'
+import comp12 from './comp12.png'
+import comp13 from './comp13.png'
+import comp14 from './comp14.png'
+import comp15 from './comp15.png'
+import comp16 from './comp16.png'
+import comp17 from './comp17.png'
+import comp18 from './comp18.png'
+import comp19 from './comp19.png'
+import comp20 from './comp20.png'
+import comp21 from './comp21.png'
+import comp22 from './comp22.png'
+import comp23 from './comp23.png'
+import comp24 from './comp24.png'
+import comp25 from './comp25.png'
+import semiconductor from './semiconductor.jpg'
+import semiconductor2 from './conductors/semiconductor2.jpg'
+import semiconductor3 from './conductors/semiconductor3.jpg'
+import semiconductor4 from './conductors/semiconductor4.jpg'
+import semiconductor5 from './conductors/semiconductor5.jpg'
+import semiconductor6 from './conductors/semiconductor6.jpg'
+import neon2 from './conductors/neon2.jpg'
+import semiconductor7 from './conductors/conductor7.jpg'
+import semiconductor8 from './conductors/conductor8.jpg'
+import semiconductor9 from './conductors/conductor9.jpg'
+import semiconductor10 from './conductors/conductor10.jpg'
+import semiconductor11 from './conductors/conductor11.jpg'
+import semiconductor12 from './conductors/conductor12.jpg'
+
+import semiconductor13 from './conductors/semiconductor13.jpg'
+import semiconductor14 from './conductors/semiconductor14.jpg'
+import semiconductor15 from './conductors/semiconductor15.jpg'
+import semiconductor16 from './conductors/semiconductor16.jpg'
+import semiconductor17 from './conductors/semiconductor17.jpg'
+import semiconductor18 from './conductors/semiconductor18.jpg'
+import cards from './cards.png'
+import grid from './grid.png'
+import stonks from './stonks.mp4'
+import apple from './apple.svg'
+import google from './google.svg'
+import review from './review.png'
+
+
+
+
+export {reacticon, wave, burger, ex, nobg, video, comp8, comp9, comp10, comp11, comp12, 
+    comp13,comp14,comp15,comp16,comp17,comp18,comp19,comp20,comp21,comp22,comp23,comp24,
+    comp25,semiconductor, semiconductor2,semiconductor3, semiconductor4,semiconductor5,
+    semiconductor6,neon2, semiconductor7, semiconductor8,semiconductor9,semiconductor10,
+    semiconductor11,semiconductor12,semiconductor13,semiconductor14,semiconductor15,
+    semiconductor16,semiconductor17,semiconductor18,cards,grid,stonks,apple,google,review}
