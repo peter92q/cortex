@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className='font-poppins  font-bold sm:text-[42px] text-[38px] leading-9'>Innovative</h1><br/> 
         <h1 className='font-poppins  font-bold sm:text-[42px] text-[38px] leading-9'>semiconductor</h1><br/> 
         <h1 className='font-poppins  font-bold sm:text-[42px] text-[38px] leading-9'>solutions</h1>
-        <p className='text-dimWhite font-poppins sm:text-[17px] text-[16px] mt-5 sm:w-[400px] w-[300px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p className='text-dimWhite font-poppins sm:text-[17px] text-[16px] mt-5 lg:w-[400px] sm:w-[350px] xs-[300px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
          <img src={nobg} className='sm:h-[450px] h-[350px] mt-10'/>
          

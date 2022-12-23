@@ -1,7 +1,8 @@
 import { footerL } from '../constants'
 
 const Footer = () =>(
-  <div className='relative'>
+
+    
     <div className='mt-20 '>     
       <div className='flex flex-col justify-center items-center bg-gradient-to-r from-purple-700 via-pink-600 to-blue-500 bg-clip-text text-transparent'>    
         <h1 className='sm:text-[25px] text-[20px] mb-3 tracking-wider font-bold'>Subscribe for exclusive offers:</h1>
@@ -12,9 +13,9 @@ const Footer = () =>(
             transition ease-in-out duration-300 border-solid  text-gray-900 
             rounded-lg p-2.5 form-control  focus:border-purple-600 focus:border-[3px] focus:outline-none'
             />
-            <div className=' flex flex-row justify-end sm:my-15 mt-10 mb-3 '> 
+            <div className='flex flex-row sm:my-15 mt-10 mb-3'> 
             {footerL.map((item)=>(
-                <div key={item.key} className='flex flex-col m-4 min-w-[100px] sm:mx-2 mx-3'>
+                <div key={item.key} className='flex flex-col sm:mx-20 mx-3'>
                     <div className='flex flex-col'>
                     <h1 className='font-poppins font-medium sm:text-[24px] text-[15px] leading-[27px]'>{item.title}</h1>
                     <ul className='list-none'>
@@ -22,12 +23,17 @@ const Footer = () =>(
                             <li key={list.name} className=' cursor-pointer hover:text-white sm:text-[18px] text-[12px]'>{list.name}</li>
                             ))}
                     </ul>
+                   
                     </div>       
                 </div>
-            ))} 
-            </div>         
+            ))}
+             
+            </div>
+                    
         </div>       
+        
         <div className='border-b-[1px] border-pink-500 sm:w-[1200px] w-[350px] m-auto'/>
+        
             <div className='flex sm:justify-between justify-start'>    
              <div className='flex flex-row '> <h1 className="mt-3 mb-3 sm:ml-20 ml-1 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent sm:text-3xl text-2xl font-audio font-bold">CORTEX </h1><p className='text-dimWhite mt-3.5 ml-2 text-[20px]'>2022 &copy; </p></div>
             <div className='flex flex-row mt-3 mb-3 sm:ml-0 ml-10 '>
@@ -39,8 +45,7 @@ const Footer = () =>(
       </div>
       
      </div> 
-    <div className='absolute z-[0] left-[10%] w-[80%] h-[80%] opacity-70 rounded-full white__gradient '/>
-</div>
+
 )
 
 export default Footer

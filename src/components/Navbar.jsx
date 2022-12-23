@@ -14,7 +14,7 @@ const Navbar = () => {
 
  return(  
        
-        <nav>
+        <nav id='navigation'>
           
           <div className='absolute z-[3] -left-0 top-0 w-[40%] h-[30%] rounded-full white__gradient'/>
           
@@ -58,7 +58,7 @@ const Navbar = () => {
                     <ul className='flex flex-col items-center justify-center'>
                         {Links.map((link)=>(
                         <div key={link.id}>
-                          <li className={`text-dimWhite hover:text-white font-poppins text-semibold text-[16px] p-2 `}><a href={`#${link.id}`}>{link.title}</a></li>
+                          <li className={`text-dimWhite hover:text-white font-poppins text-semibold text-[16px] p-2 `}><a href={`#${link.id}`} onClick={()=>setToggle(prev=>!prev)}>{link.title}</a></li>
                         </div>
                         ))}
                     </ul>
