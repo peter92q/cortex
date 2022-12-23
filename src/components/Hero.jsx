@@ -4,7 +4,7 @@ import '../index.css'
 
 const Hero = () => {
   return (
-    <div className='flex lg:flex-row md:flex-row sm:flex-col flex-col sm:justify-between justify-center sm:text-left text-center sm:mx-60 mx-10'>
+    <div className='flex sm:flex-row flex-col-reverse sm:justify-between justify-center sm:text-left text-center sm:mx-60 mx-10'>
       <div className='mt-20 from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent'>
         <h1 className='font-poppins  font-bold sm:text-[42px] text-[38px] leading-9'>Innovative</h1><br/> 
         <h1 className='font-poppins  font-bold sm:text-[42px] text-[38px] leading-9'>semiconductor</h1><br/> 
